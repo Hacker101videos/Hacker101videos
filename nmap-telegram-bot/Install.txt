@@ -14,7 +14,7 @@ npm -v
 
 Install Nmap Telegram Bot
 
-1. Git Clone this Repo
+1. Git Clone this Repo (apt install git) if GIT is not installed
 git clone https://github.com/Hacker101videos/Hacker101videos.git
 
 2. CD to nmap telegram bot directory
