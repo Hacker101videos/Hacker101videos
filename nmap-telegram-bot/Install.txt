@@ -1,8 +1,8 @@
 1. Git Clone this Repot
-git clone 
+git clone https://github.com/Hacker101videos/Hacker101videos.git
 
 2. CD to nmap telegram bot directory
-cd /home/user/nmap-telegram-bot
+cd Hacker101videos/nmap-telegram-bot
 
 3. Install the required packages
 npm install
