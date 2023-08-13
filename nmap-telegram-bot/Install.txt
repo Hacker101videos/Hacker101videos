@@ -8,6 +8,7 @@ cd Hacker101videos/nmap-telegram-bot
 npm install
 
 4. Edit and Save index.js with your Telegram bot API key
+nano index.js
 
 5. Start bot
 node index.js
