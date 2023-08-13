@@ -1,4 +1,15 @@
-1. Git Clone this Repot
+Install required software:
+
+Update:
+sudo apt update
+
+Nmap Scanner:
+sudo apt install nmap
+
+Node JS and NPM:
+sudo apt install nodejs npm
+
+1. Git Clone this Repo
 git clone https://github.com/Hacker101videos/Hacker101videos.git
 
 2. CD to nmap telegram bot directory
@@ -12,3 +23,5 @@ nano index.js
 
 5. Start bot
 node index.js
+
+
