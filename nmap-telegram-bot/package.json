@@ -1,0 +1,16 @@
+{
+  "name": "nmap-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for running Nmap scans",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hacker101",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0",
+    "util": "^0.12.4",
+    "child_process": "^1.0.2"
+  }
+}
