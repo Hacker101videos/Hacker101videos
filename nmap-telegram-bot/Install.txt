@@ -1,4 +1,4 @@
-Install required software:
+Install required software to run the Nmap Telegram bot.
 
 Update:
 sudo apt update
