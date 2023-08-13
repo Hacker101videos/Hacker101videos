@@ -12,6 +12,8 @@ sudo apt install nodejs npm
 node -v
 npm -v
 
+Install Nmap Telegram Bot
+
 1. Git Clone this Repo
 git clone https://github.com/Hacker101videos/Hacker101videos.git
 
