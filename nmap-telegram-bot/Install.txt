@@ -5,9 +5,12 @@ sudo apt update
 
 Install Nmap Scanner:
 sudo apt install nmap
+nmap --version
 
 Install Node JS and NPM:
 sudo apt install nodejs npm
+node -v
+npm -v
 
 1. Git Clone this Repo
 git clone https://github.com/Hacker101videos/Hacker101videos.git
