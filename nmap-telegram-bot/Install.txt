@@ -1,4 +1,4 @@
-Introducing the Hacker101 Telegram Scan Bot designed for Nmap scans. This bot was written 100% with ChatGPT. 
+Introducing the Hacker101 Telegram Nmap Scan Bot designed for Nmap scans. This bot was written 100% with ChatGPT. 
 Nmap is a powerful network scanning tool used to discover hosts, services, and potential vulnerabilities on computer networks. 
 With this bot, users can initiate various types of Nmap scans via Telegram chat interactions. Here are the available scan types:
 
