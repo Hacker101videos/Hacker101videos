@@ -42,9 +42,10 @@ npm install
 4. Edit and Save index.js with your Telegram bot API key
 nano index.js
 
-5. Start bot
+5. Start bot on server
 node index.js
 
+6. Start Bot on Telegram
 Go to Telegram Bot and use /scan to start the bot in Telegram.
 
 Disclaimer: All demonstrations in this video are conducted on authorized systems with explicit permission. No support for illegal activities. Ethical hacking means responsible vulnerability discovery. Misusing techniques for unauthorized or malicious purposes is strictly discouraged. Exercise sound judgment and respect others' security and privacy. Seek permission for any hacking-related activities. Subscribe for more ethical hacking content! 
