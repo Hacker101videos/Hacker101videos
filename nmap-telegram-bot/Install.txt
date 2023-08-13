@@ -1,0 +1,13 @@
+1. Git Clone this Repot
+git clone 
+
+2. CD to nmap telegram bot directory
+cd /home/user/nmap-telegram-bot
+
+3. Install the required packages
+npm install
+
+4. Edit and Save index.js with your Telegram bot API key
+
+5. Start bot
+node index.js
