@@ -1,3 +1,19 @@
+Introducing the Hacker101 Telegram Scan Bot designed for Nmap scans. This bot was written 100% with ChatGPT. 
+Nmap is a powerful network scanning tool used to discover hosts, services, and potential vulnerabilities on computer networks. 
+With this bot, users can initiate various types of Nmap scans via Telegram chat interactions. Here are the available scan types:
+
+Network Discovery Scan: Discovers live hosts on the network.
+TCP Connect Scan: Performs a TCP connect scan on the target.
+TCP SYN/Stealth Scan: Executes a stealthy TCP SYN scan.
+UDP Scan: Conducts a UDP port scan on the target.
+OS Detection: Attempts to determine the target's operating system.
+Version Detection: Tries to identify versions of services running on target ports.
+Vulnerability Detection: Detects vulnerabilities using Nmap scripts.
+Specific Port Scan: Scans a specific port on the target IP.
+Aggressive Scan: Performs an aggressive scan with more information.
+Intense Scan: A more intensive scan that includes all available scan types.
+These scan types enable users to gather comprehensive information about network hosts and services, aiding in security assessment and network management.
+
 Install required software to run the Nmap Telegram bot. Should work on any linux version and has been tested on Ubuntu 22.04.
 
 Update APT:
@@ -29,4 +45,4 @@ nano index.js
 5. Start bot
 node index.js
 
-
+Disclaimer: All demonstrations in this video are conducted on authorized systems with explicit permission. No support for illegal activities. Ethical hacking means responsible vulnerability discovery. Misusing techniques for unauthorized or malicious purposes is strictly discouraged. Exercise sound judgment and respect others' security and privacy. Seek permission for any hacking-related activities. Subscribe for more ethical hacking content! 
