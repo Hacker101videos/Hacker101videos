@@ -18,7 +18,7 @@ git clone https://github.com/Hacker101videos/Hacker101videos.git
 2. CD to nmap telegram bot directory
 cd Hacker101videos/nmap-telegram-bot
 
-3. Install the required packages
+3. Install the required packages (Disregard deprecated error, will update soon)
 npm install
 
 4. Edit and Save index.js with your Telegram bot API key
