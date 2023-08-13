@@ -1,12 +1,12 @@
 Install required software to run the Nmap Telegram bot.
 
-Update:
+Update APT:
 sudo apt update
 
-Nmap Scanner:
+Install Nmap Scanner:
 sudo apt install nmap
 
-Node JS and NPM:
+Install Node JS and NPM:
 sudo apt install nodejs npm
 
 1. Git Clone this Repo
