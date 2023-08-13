@@ -1,4 +1,4 @@
-Install required software to run the Nmap Telegram bot.
+Install required software to run the Nmap Telegram bot. Should work on any linux version and has been tested on Ubuntu 22.04.
 
 Update APT:
 sudo apt update
