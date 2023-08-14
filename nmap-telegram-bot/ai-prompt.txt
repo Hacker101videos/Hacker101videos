@@ -1,15 +1,17 @@
-Create a Node.js Telegram bot that performs the following:
+Create a Node.js Telegram bot that performs the following nmap scans:
 
 Step 1. Create a menu with these scan options with descriptions of each scan option.
 
-Network Discovery Scan
-TCP Scan
-SYN Scan/Stealth
-UDP Scan
-OS Enumeration
-Service Detection
-Vulnerablity Scan
-Specific Port Scan
+Network Discovery Scan: Discovers live hosts on the network.
+TCP Connect Scan: Performs a TCP connect scan on the target.
+TCP SYN/Stealth Scan: Executes a stealthy TCP SYN scan.
+UDP Scan: Conducts a UDP port scan on the target.
+OS Detection: Attempts to determine the target's operating system.
+Version Detection: Tries to identify versions of services running on target ports.
+Vulnerability Detection: Detects vulnerabilities using Nmap scripts.
+Specific Port Scan: Scans a specific port on the target IP.
+Aggressive Scan: Performs an aggressive scan with more information.
+Intense Scan: A more intensive scan that includes all available scan types.
 
 Step 2. Ask the user which NMAP scan they would like to perform from the scan menu.
 
@@ -20,7 +22,3 @@ Step 4. If Specific port scan option is selected then ask the user for the IP an
 Step 5. Scan the IP or target entered by the user using the nmap and scan type command
 
 Step 6. Display the results of the scan back to Telegram bot
-
-
-####
-Tweak the results to your liking throughout your testing.
