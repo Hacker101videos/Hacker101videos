@@ -16,6 +16,9 @@ These scan types enable users to gather comprehensive information about network 
 
 Install required software to run the Nmap Telegram bot. Should work on any linux version and has been tested on Ubuntu 22.04.
 
+Hacker101 Github:
+https://github.com/Hacker101videos/
+
 Update APT:
 sudo apt update
 
@@ -39,7 +42,7 @@ cd Hacker101videos/nmap-telegram-bot
 3. Install the required packages (Disregard deprecated error, will update soon)
 npm install
 
-4. Edit and Save index.js with your Telegram bot API key
+4. Edit and Save index.js with your Telegram bot API key (Edit this file when testing your bot)
 nano index.js
 
 5. Start bot on server
