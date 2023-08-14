@@ -1,0 +1,56 @@
+Create Telegram Hack Bot with ChatGPT | Nmap powered by Telegram
+
+Introducing the Hacker101 Telegram Nmap Scan Bot designed for Nmap scans. This bot was written 100% with ChatGPT in less than 1 hour utilizing the Node.js framework. 
+
+Nmap is a powerful network scanning tool used to discover hosts, services, and potential vulnerabilities on computer networks. With this bot, users can initiate various types of Nmap scans via Telegram chat interactions. Here are the available scan types:
+
+Network Discovery Scan: Discovers live hosts on the network.
+TCP Connect Scan: Performs a TCP connect scan on the target.
+TCP SYN/Stealth Scan: Executes a stealthy TCP SYN scan.
+UDP Scan: Conducts a UDP port scan on the target.
+OS Detection: Attempts to determine the target's operating system.
+Version Detection: Tries to identify versions of services running on target ports.
+Vulnerability Detection: Detects vulnerabilities using Nmap scripts.
+Specific Port Scan: Scans a specific port on the target IP.
+Aggressive Scan: Performs an aggressive scan with more information.
+Intense Scan: A more intensive scan that includes all available scan types.
+These scan types enable users to gather comprehensive information about network hosts and services, aiding in security assessment and network management.
+
+Install required software to run the Nmap Telegram bot. Should work on any linux version and has been tested on Ubuntu 22.04.
+
+Hacker101 Github:
+https://github.com/Hacker101videos/
+
+Update APT:
+sudo apt update
+
+Install Nmap Scanner:
+sudo apt install nmap
+nmap --version
+
+Install Node JS and NPM:
+sudo apt install nodejs npm
+node -v
+npm -v
+
+Install Nmap Telegram Bot
+
+1. Git Clone this Repo (apt install git) if GIT is not installed
+git clone https://github.com/Hacker101videos/Hacker101videos.git
+
+2. CD to nmap telegram bot directory
+cd Hacker101videos/nmap-telegram-bot
+
+3. Install the required packages (Disregard deprecated error, will update soon)
+npm install
+
+4. Edit and Save index.js with your Telegram bot API key (Edit this file when testing your bot)
+nano index.js
+
+5. Start bot on server
+node index.js
+
+6. Start Bot on Telegram
+Go to Telegram Bot and use /scan to start the bot in Telegram.
+
+Disclaimer: All demonstrations in this video are conducted on authorized systems with explicit permission. No support for illegal activities. Ethical hacking means responsible vulnerability discovery. Misusing techniques for unauthorized or malicious purposes is strictly discouraged. Exercise sound judgment and respect others' security and privacy. Seek permission for any hacking-related activities. Subscribe for more ethical hacking content! 
